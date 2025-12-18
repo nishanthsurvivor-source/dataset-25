@@ -1,0 +1,18 @@
+# Smart Office Automation Agent - Requirements
+# Core dependencies
+
+# Optional: For advanced summarization (uncomment if you want to use HuggingFace models)
+# transformers>=4.30.0
+# torch>=2.0.0
+# sentencepiece>=0.1.99
+
+# Standard library dependencies (included in Python)
+# - re (regex)
+# - json
+# - datetime
+# - typing
+# - dataclasses
+
+# Note: The system works without transformers library using rule-based summarization
+# Install transformers only if you want to use pre-trained BART/T5 models
+
